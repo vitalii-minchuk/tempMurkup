@@ -1,0 +1,511 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+body{
+    background-color: #E5E5E5;
+    font-family: 'Montserrat';
+}
+.wrapper__header{
+    background-color: #F0F5FB;
+    max-width: 1440px;
+    height: 832px;
+    margin: 0px auto;
+    position: relative;
+    z-index: 3;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1160px;
+    height: 70px;
+    margin: 20px auto 0px auto;
+    padding-top: 10px;
+}
+.header__list{
+   font-size: 16px;
+   font-weight: 400;
+   color: #000;
+   list-style: none;
+   display: flex;
+   align-items: center;
+}
+.header__list a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+    color: #000;
+}
+.header__list__item{
+    margin: 12px 0px 0px 0px;
+    transition: 0.4s;
+}
+.header__list__item:hover,.header__list__item:focus{
+    opacity: 0.76;
+    text-shadow:1px 1px 2px rgb(44, 43, 43);
+    transform: scale(1.2);
+}
+.header__list__item:first-child{
+    margin: 12px 40px 0px 0px;
+}
+.header__list__item:last-child{
+    margin: 12px 0px 0px 40px;
+}
+
+.header__info{
+    display: flex;
+    align-items: center;
+}
+.header__info__num{
+    font-size: 18px;
+    font-weight: 700;
+    margin: 12px 0px 0px 0px;
+}
+.header__info__data{
+    font-size: 16px;
+    font-weight: 400;
+    margin: 12px 0px 0px 0px;
+}
+.header__info__data::before{
+    content: "\2022";
+    color: #46CB72;
+    font-weight: bold;
+    display: inline-block; 
+    width: 1em;
+    margin-left: 1em;
+}
+.header__info__img{
+    margin: 25px 25px 0px 32px;
+    transition: 0.5s;
+}
+.header__info__img:hover,.header__info__img:focus{
+    opacity: 0.76;
+    text-shadow:1px 1px 2px rgb(44, 43, 43);
+    transform: scale(1.2);
+}
+.header__logo{
+    transition: 0.5s;
+}
+.header__logo:hover,.header__logo:focus{
+    opacity: 0.6;
+    transform: scale(1.1);
+}
+
+/*----------------header menu over--------------------------*/
+.pizza{
+    max-width: 1440px;
+    max-height: 627px;
+}
+.img__prown{
+    position: absolute;
+    top: 50px;
+    left: 93.86%;;
+    transform: rotate(10deg);
+    opacity: 0.9;
+}
+h1{
+    font-size: 48px;
+    font-weight: 700;
+}
+.img__peper{
+    position: absolute;
+    top: 390px;
+    left: 205px;
+}
+.img__marsh{
+    position: absolute;
+    top: 516px;
+    left: 94px;
+    z-index: 2;
+}
+.img__marshShadow{
+    position: absolute;
+    top: 544px;
+    left: 123px;
+}
+.img__tom{
+    max-width: 133px;
+    position: absolute;
+    top: 136px;
+    left: 0px;
+    z-index: 2;
+}
+.img__tomShad{
+    position: absolute;
+    top: 144px;
+    left: 30px;
+}
+.img__cuc{
+    position: absolute;
+    top: 209px;
+    left: 1148px;
+}
+.img__pep{
+    position: absolute;
+    top: 623px;
+    left: 1123px;
+}
+.img__pepshad{
+    position: absolute;
+    top: 536px;
+    left: 1206px;
+}
+.img__pep1{
+    position: absolute;
+    top: 615px;
+    left: 1200px;
+}
+.img__pizzaShad{
+    position: absolute;
+    top: 563px;
+    left: 1258px;
+}
+.peace__text p{
+    font-size: 18px;
+    font-weight: 400;
+    margin: 18px 0px 0px 0px;
+}
+.peace{
+    overflow: visible;
+    max-width: 790px;
+    max-height: 760px;
+    margin: 123px auto 0px;
+    text-align: center;
+}
+.peace__img{
+    margin-left: 50px;
+    position: relative;
+}
+.img__str{
+    position: absolute;
+    top: 155px;
+    left:528px;
+    font-size: 15px;
+}
+.img__plus{
+    position: absolute;
+    top: 200px;
+    left: 480px;
+}
+.img__str__text{
+    position: absolute;
+    top: 138px;
+    left: 690px;
+}
+
+/*--------- header is over-----------------------------*/
+
+
+.main{
+
+    background-color:#FFFFFF;
+    max-width: 1440px;
+    
+    margin: 0px auto;
+    
+
+}
+.main__pizzas{
+    max-width: 1160px;
+    margin: 0px auto 0px;
+
+}
+.main__pizzas__menu__titel{
+    width: 400px;
+    margin: 0px auto;
+    padding: 150px 0px 50px 0px;
+}
+.main__pizzas__menu__btns__items{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 70px;
+    align-items: center;
+}
+.main__pizzas__menu__btns__items a{
+    text-decoration: none;
+    color: #151515;
+}
+.main__pizzas__menu__btns__item{
+    font-size: 16px;
+    font-weight: 600;
+    width: 145px;
+    height: 42px;
+    background-color:  #E5E5E5;
+    border-radius: 45px;
+    text-align: center;
+    padding-top: 17px;
+    margin: 0px 20px 0px 0px;
+    transition: 0.5s;
+}
+.main__pizzas__menu__btns__item:hover{
+    background-color: #59AAF1;
+}
+
+.main__pizzas__menu__options{
+    max-width: 1160px;
+    display: flex;
+    justify-content: space-between;
+    margin: 45px 0px 0px 0px;
+    flex-wrap: wrap;
+}
+.main__pizzas__menu__option{
+    height: 440px;
+    width: 260px;
+    background-image: url(./img/Rectangle\ 2.png);
+    background-repeat: no-repeat;
+    margin: 0px 0px 0px 0px;
+    padding:0px 5px 0px 5px;
+    transition: 0.4s;
+}
+.main__pizzas__menu__option:hover{
+    opacity: 0.85;
+}
+.main__pizzas__menu__option__img{
+    width: 175px;
+    height: 175px;
+    margin: 0px auto;
+    padding: 35px 0px 30px 0px;
+}
+.main__pizzas__menu__option__NS{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 244px;
+    padding: 0px 0px 8px 0px;
+}
+.main__pizzas__menu__option__NS h3{
+    font-size: 16px;
+    font-weight: 600;
+}
+.main__pizzas__menu__option__NS p{
+    font-size: 12px;
+    font-weight: 400;
+}
+.main__pizzas__menu__option__N{
+    margin-left: 15px;
+}
+.main__pizzas__menu__option__discr{
+    text-align:justify;
+    margin: 0px 18px 19px 14px;
+}
+.main__pizzas__menu__option__discr p{
+    font-size: 12px;
+    font-weight: 400;
+}
+.main__pizzas__menu__option__price{
+    text-align: center;
+    margin: 0px auto 26px;
+}
+.main__pizzas__menu__option__price h2{
+    font-size: 24px;
+    font-weight: 300;
+}
+#add{
+    width: 34px;
+    height: 34px;
+    padding-left: 110px;
+    position: relative;
+}
+/*------------main__pizzas__menu__options-----------------------*/
+
+.main__pizzas__img__icon{
+    position: absolute;
+    top: 850px;
+    left: 1120px;
+}
+.main__pizzas__img__green{
+    position: absolute;
+    top: 2145px;
+    left: 0px;
+}
+.main__pizzas__img__rib{
+    position: absolute;
+    top: 1025px;
+    left: 0px;
+}
+.main__pizzas__img__on{
+    position: absolute;
+    top: 1035px;
+    right: 0px;
+}
+.main__pizzas__btn{
+    width: 100px;
+    margin: 15px auto 0px;
+    padding-bottom: 80px;
+    padding-top: 35px;
+    transition: 0.5s;
+    opacity: 0.85;
+}
+.main__pizzas__btn:hover{
+    opacity: 1;
+    transform: scale(1.1);
+}
+/*------------------main__pizzas done--------------------*/
+
+
+.main__inst__photos{
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1440px;
+    margin: 0px auto;
+}
+.main__inst__wrapper{
+    position: relative;
+    padding-bottom: 125px;
+}
+.main__inst__btn{
+    position: absolute;
+    top: 40px;
+    left: 480px;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    width: 480px;
+    height: 180px;
+    transition: 0.5s;
+    box-shadow: 5px 5px 15px rgba(253,153,36,1);
+    background: rgb(253,153,36);
+    background: linear-gradient(62deg, rgba(253,153,36,1) 30%, rgba(246,91,22,1) 58%, rgba(246,91,22,1) 100%);
+}
+.main__inst__photo{
+    opacity: 0.6;
+    transition: 0.4s;
+}
+.main__inst__photo:hover{
+    opacity: 0.8;
+}
+.main__inst__btn:hover{
+    transform: scale(1.1);
+    opacity: 0.9;
+}
+.main__inst__btn__text{
+    text-align: center;
+    width: 440px;
+    height: 140px;
+    border: 2px solid rgb(247, 176, 95);
+    border-radius: 15px;
+    font-size: 24px;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main__inst__btn__text p{
+    display: block;
+}
+.main__inst__btn__text span{
+    font-weight: 700;
+}
+/*---------------------------main__inst done --------------------------*/
+
+.main__footer__wrapper{
+    min-width: 1440px;
+    min-height: 575px;
+    background-color: #F0F5FB;
+    background-image: url(./img/vegitable.png);
+    background-repeat: no-repeat;
+    background-position-y: 108px;
+    position: relative;
+}
+.main__footer__img__car{
+    position: absolute;
+    bottom: -80px;
+    left: 380px;
+}
+.main__footer__titel{
+    width: 600px;
+    margin: 0px auto;
+    text-align: center;
+    padding-top: 85px;
+}
+.main__footer__titel h1{
+    line-height: 150%;
+}
+.main__footer__btns{
+    min-width: 960px;
+    height: 65px;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+input[type=submit]{
+    width: 260px;
+    height: 60px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #ffffff;
+    background: linear-gradient(180deg, #FE5626 0%, #F23F0E 100%), #59AAF1;;
+    border-radius: 59px;
+    box-shadow: 0px 4px 8px rgba(205, 169, 41, 0.26);
+    transition: all 0.6s;
+    margin-left: 10px;
+}
+input[type=submit]:hover{
+    border: 6px solid #59AAF1;
+    cursor: pointer;
+}
+input[type=text]{
+    width: 260px;
+    height: 60px;
+    font-size: 14px;
+    font-weight: 400;
+    border-radius: 59px;
+    border: 2px solid #ECEEF7;
+    color: #222222;
+    text-align:justify;
+    padding: 0px 0px 0px 25px;
+    margin: 0px 20px;
+}
+input[type=text]:hover{
+    border: 6px solid #59AAF1;
+    cursor: pointer;
+}
+/*----------------------footer-------------------*/
+
+.wrapper__footer{
+    max-width: 1440px;
+    max-height: 135px;
+    background-color: #FFFFFF;
+    margin: 0px auto;
+}
+.footer{
+    max-width: 1160px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px auto 25px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+.footer__text{
+    font-size: 16px;
+    font-weight: 400;
+}
+.footer__text span{
+    font-weight: 700;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
